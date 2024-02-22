@@ -21,6 +21,8 @@ with DAG(
         bash_command="echo $HOSTNAME",
     )
 
+    print("Hello~")
+
     bash_t1 >> bash_t2
 
 
